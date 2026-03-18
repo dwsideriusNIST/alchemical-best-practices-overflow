@@ -29,25 +29,25 @@
 \usepackage{changepage}
 \usepackage{verbatim}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%% Tweaks to formatting of title page
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%% Move the title up
-\makeatletter
-\renewcommand{\maketitle}{%
-  \vskip0pt%  % Reduced from 36pt
-  {\color{LiveCoMSDarkBlue}\raggedright\bfseries\fontsize{22}{27}\selectfont \@title\par}%
-  \vskip16pt
-  {\@author\par}
-  \vskip8pt
-}
+%% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% %%% Tweaks to formatting of title page
+%% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% %% Move the title up
+%% \makeatletter
+%% \renewcommand{\maketitle}{%
+%%   \vskip0pt%  % Reduced from 36pt
+%%   {\color{LiveCoMSDarkBlue}\raggedright\bfseries\fontsize{22}{27}\selectfont \@title\par}%
+%%   \vskip16pt
+%%   {\@author\par}
+%%   \vskip8pt
+%% }
 
-%% Shrink author and affiliation text
-\makeatletter
-\renewcommand{\Authfont}{\bfseries\small\raggedright}  % Authors smaller and not bold
-\renewcommand{\Affilfont}{\mdseries\small\raggedright}  % Affiliations smaller
-\setlength{\affilsep}{8pt}  % Reduce spacing between author and affiliations
-\makeatother
+%% %% Shrink author and affiliation text
+%% \makeatletter
+%% \renewcommand{\Authfont}{\bfseries\small\raggedright}  % Authors smaller and not bold
+%% \renewcommand{\Affilfont}{\mdseries\small\raggedright}  % Affiliations smaller
+%% \setlength{\affilsep}{8pt}  % Reduce spacing between author and affiliations
+%% \makeatother
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -210,10 +210,10 @@ Ph.D. Program in Biochemistry, The Graduate Center of the City University of New
 \begin{document}
 \begin{frontmatter}
 
-%% Expand title, authors, and affilitations sideways to keep title and abstract on first page
-\begin{adjustwidth}{-4cm}{}
+%% %% Expand title, authors, and affilitations sideways to keep title and abstract on first page
+%% \begin{adjustwidth}{-4cm}{}
 \maketitle
-\end{adjustwidth}
+%% \end{adjustwidth}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%% Abstract
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
